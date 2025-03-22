@@ -12,7 +12,7 @@ This is a simple weather website that shows real-time weather data for any city.
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript
+- ReactJS
 - OpenWeatherMap API
 
 ## Usage
