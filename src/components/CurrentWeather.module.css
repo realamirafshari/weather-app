@@ -1,0 +1,60 @@
+.current_weather_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dac3f8;
+}
+.city_date_info {
+  text-align: center;
+  font-size: 1.3rem;
+
+  h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+}
+.current_weather_info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+
+  img {
+    width: 160px;
+  }
+  .tempture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+  .weather_temperature {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  .weather_temperature span {
+    font-size: 6rem;
+  }
+}
+.weather_more_info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  h3 {
+    font-weight: 400;
+    background-color: #452175;
+    padding: 10px 13px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,37 @@
+img {
+  width: 50px;
+}
+
+.fourcast_weather {
+  margin-top: 20px;
+  width: 100%;
+  border-top: 1px solid gray;
+  padding: 15px 0;
+  margin-bottom: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  &:hover {
+    scrollbar-color: #dac3f8 transparent;
+  }
+}
+.fourcast_weather_list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: -14px;
+  width: max-content;
+}
+.fourcast_weather_item {
+  background-color: #dac3f8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 120px;
+  height: fit-content;
+}
